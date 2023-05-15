@@ -667,6 +667,7 @@ textarea .input{
     html{
         font-size: 80%;
         overflow-x: hidden;
+        margin: 1rem;
     }
     header .fa-bars{
         display: block;
@@ -720,7 +721,8 @@ textarea .input{
     }
 /*------------------CONTENIDO---------------------------*/
 article{
-    margin: 0rem;
+    margin: 1rem;
+    overflow-x: hidden;
 }
 h2{
     display: block;
