@@ -324,8 +324,11 @@ footer{
 }
 .productos .boxContainer .box .imagen .icons{
     position: absolute;
-    right: 0; left: 5rem;  bottom: -7rem;
+    right: 0; left: 0rem;  bottom: -7rem;
     display: flex;
+    background: rgba(82, 82, 82, 0.697);
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
 
     transition: 0.6s;
 }
@@ -334,6 +337,8 @@ footer{
 }
 .productos .boxContainer .box .imagen .icons a{
     height: 5rem;
+    position: relative;
+    left: -1rem;
     line-height: 5rem;
     font-size: 2rem;
     width: 50%;
@@ -347,7 +352,8 @@ footer{
     width: 100%;
 }
 .productos .boxContainer .box .imagen .icons a:hover{
-    background-color: #4b4a4a;
+    background: rgba(82, 82, 82, 0.697);
+    backdrop-filter: blur(1px);background-color: #fdfdfd;
 }
 .productos .boxContainer .box .content{
     padding: 2rem;
@@ -659,20 +665,20 @@ textarea .input{
 @media screen and (max-width: 480px) {
     /*---------------------navbar------------------------------*/
     html{
-        font-size: 55%;
+        font-size: 80%;
         overflow-x: hidden;
     }
     header .fa-bars{
         display: block;
         position: relative;
-        left: 4rem;
+        left: 1.5rem;
         }
     header .navbar {
         position: fixed;
         width: 100%;
-        height: 60rem;
+        height: 40rem;
         background: #94aa8f;
-        top: 75px;
+        top: 10rem;
         right: 18px;
         left: -100%;
         text-align: center;
@@ -680,13 +686,13 @@ textarea .input{
     }
     .navbar li{
         display: block;
-        bottom: 5rem;
-        left: 10rem;
+        bottom: 4rem;
+        left: 3.6rem;
         margin: 50px 0;
         line-height: 30px;
     }
     .navbar li a{
-        font-size: 25px;
+        font-size: 30px;
         padding: 10px;
         border-bottom: 1px solid rgba(33, 32, 32, 0.697);
     }
@@ -698,18 +704,19 @@ textarea .input{
         left: 0;
     }
     header img{
-        width: 18%;
+        width: 40%;
         position: relative;
-        left: -14rem;
+        left: 2rem;
         bottom: 1px;
     }
     .icons a{
-        font-size: 3rem;
+        font-size: 2.8rem;
         color: #0f0f0f;
-        margin-left: 1.5rem;
+        margin-left: 0rem;
         display: inline-block;
-        bottom: 0rem;
-        right: 25rem;
+        padding-top: 0.6rem;
+        bottom: 1rem;
+        right: 1rem;
     }
 /*------------------CONTENIDO---------------------------*/
 article{
@@ -735,16 +742,16 @@ p{
 }
 .boton-carrusel{
     position: absolute;
-    top: 3.8rem;
+    top: 3rem;
 }
 /*--------------NUESTROS PRODUCTOS--------------------*/
 .container{
     display: block;
     position: relative;
-    left: 5rem;
+    left: -2.3rem;
 }
 .container img{
-    padding: 0rem;
+    padding: 1rem;
 
 }
 .container img:hover{
@@ -760,7 +767,7 @@ p{
 }
 .productos__name{
     position: relative;
-    right: 6.5rem;
+    right: -2rem;
     font-size: 3rem;
     text-align: center;
     margin:0.5rem
@@ -774,8 +781,8 @@ p{
 .ventajas__text{
     display: block;
     position: relative;
-    left: 8rem;
-    width: 65%;
+    left: 5rem;
+    width: 75%;
     margin: 0rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
@@ -798,7 +805,7 @@ p{
 .novedades{
     display: block;
     position: relative;
-    left: 2rem;
+    left: 3rem;
 
 }
 .novedades .titulo-main{
@@ -807,7 +814,7 @@ p{
     font-family: 'Nanum Pen Script', cursive;
     font-family: 'Nunito', sans-serif;
     position: relative;
-    left: 15rem;
+    left: 10rem;
     font-size: 4rem;
 }
 .novedades .parrafo{
@@ -827,22 +834,25 @@ p{
     font-size: 2rem;
     font-weight: 600px;
     position: relative;
-    left: 15rem;
+    left: 10rem;
 
 }
 .novedades .novedades__image{
-    width: 100%;
+    width: 90%;
+    padding: 1rem;
+    position: relative;
+    left: -1rem;
     margin-left: 0rem;
 }
 /*-----------FOOTER------------------------*/
 .logoFooter{
-    height: 15rem;
+    height: 10rem;
     margin-bottom: 1rem;
 }
 
 .footer__links{
-    width:5rem;
-    height: 5rem;
+    width:4rem;
+    height: 4rem;
 }
 .copy{
     text-align: center;
@@ -852,7 +862,8 @@ p{
 /*----------------TIENDA--------------------*/
 
 .productos .boxContainer .box{
-    width: 85%;
+    width: 35rem;
+    margin-top: 5rem;
 }
 .productos .boxContainer .box .dicount{
     font-size: 2.5rem;
@@ -860,17 +871,25 @@ p{
 
 .productos .boxContainer .box .imagen img{
     height: 35rem;
+    position: relative;
+    left: -8rem;
 }
 .productos .boxContainer .box .imagen .icons{
     position: absolute;
-    right: 0rem; left: 40rem; bottom: 0rem;
+    right: 0rem; left: 0rem; bottom: 1rem;
+    background: rgba(82, 82, 82, 0.697);
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
 }
 
 .productos .boxContainer .box .imagen .icons a{
-    height: 6rem;
-    font-size: 5rem;
+    height: 5.5rem;
+    font-size: 4rem;
+    border-left: 1px solid white;
+    position: relative;
+    top: 0.2rem;
     width: 100%;
-    color: #141111;
+    color: #701e1e;
 }
 
 .productos .boxContainer .box .content{
