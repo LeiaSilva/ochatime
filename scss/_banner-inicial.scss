@@ -1,0 +1,48 @@
+.inicio{
+    display: flex;
+    position: relative;
+    bottom: 50rem;
+    background-color: #ffffff;
+    width: 78%;
+    height: 29rem;
+    left: 10rem;
+    margin-right: 20rem;
+    box-shadow: 1rem 0 .5rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+    .inicio__text{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        h1{
+            margin-top: 1rem;
+            color: #0f0f0f;
+            font-size: 2.9rem;
+            width: 100%;
+            font-family: 'Cherry Bomb One', cursive;
+            position: relative;
+            left: 1rem;
+        }
+        p{
+            margin: 2rem;
+            width: 80%;
+            justify-content: center;
+            font-size: 1rem;
+            position: relative;
+            left: 2rem;
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        span{
+            color: #ca6e6e;
+        }
+        .boton-inicio{
+            background-color: #9c6c6c;
+            width: 50%;
+            height: 8%;
+            position: relative;
+            left: 8rem;
+            bottom: 1rem;
+            border: transparent;
+            border-radius: 100px;
+            font-family: 'Nanum Pen Script', cursive;
+        }
+    }

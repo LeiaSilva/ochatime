@@ -1,0 +1,42 @@
+.ventajas__title{
+    background-color: #f7c479;
+    display: block;
+    text-align: center;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    font-family: 'Cherry Bomb One', cursive;
+    position: relative;
+    bottom: 43rem;
+}
+    .ventajas__section{
+        position: relative;
+        bottom: 39rem;
+        left: 0rem;
+        height: 20rem;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        background-color: #fdfdfd;
+        box-shadow: 1rem 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    }
+    .ventajas__text{
+        width: 33%;
+        margin: 2rem;
+        p{
+            font-family: 'Nanum Pen Script', cursive;
+            text-align:justify;
+            position: relative;
+            left: 2rem;
+        }
+        h3{
+            text-align: center;
+            font-size: 1.8rem;
+            font-family: 'Cherry Bomb One', cursive;
+        }
+        img{
+            width: 10rem;
+            position: relative;
+            left: 8rem;
+        }
+    }
+    

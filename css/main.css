@@ -1,0 +1,1097 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: url(../assets/cookies-background.png);
+  background-color: #d8eaf1;
+}
+body img {
+  width: 100%;
+}
+body main {
+  height: 64rem;
+}
+
+header {
+  position: fixed;
+  top: 1.5rem;
+  left: 8rem;
+  right: 8rem;
+  background-color: #ffffff;
+  padding: 0.2rem 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 1000;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 15rem;
+}
+header img {
+  width: 10%;
+  position: relative;
+  left: 5rem;
+  bottom: 5px;
+}
+
+#toggler {
+  display: none;
+}
+
+.fa-bars {
+  font-size: 3rem;
+  color: #4b4a4a;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar li {
+  position: relative;
+  right: 2rem;
+  bottom: 0rem;
+  font-size: 20px;
+  padding: 0 0 0 0rem;
+  color: #0f0f0f;
+  display: inline-block;
+  padding: 25px 30px 25px;
+}
+
+li {
+  list-style-type: none;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+a:hover {
+  color: #D0EBD4;
+}
+
+.icons a {
+  font-size: 1.5rem;
+  color: #0f0f0f;
+  margin-left: 1.5rem;
+  position: relative;
+  bottom: 0rem;
+  right: 5rem;
+}
+
+.icons a:hover {
+  color: #D0EBD4;
+}
+
+.inicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  bottom: 50rem;
+  background-color: #ffffff;
+  width: 78%;
+  height: 29rem;
+  left: 10rem;
+  margin-right: 20rem;
+  -webkit-box-shadow: 1rem 0 0.5rem 0.2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 1rem 0 0.5rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.inicio__text {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.inicio__text h1 {
+  margin-top: 1rem;
+  color: #0f0f0f;
+  font-size: 2.9rem;
+  width: 100%;
+  font-family: "Cherry Bomb One", cursive;
+  position: relative;
+  left: 1rem;
+}
+.inicio__text p {
+  margin: 2rem;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1rem;
+  position: relative;
+  left: 2rem;
+  font-family: "Nanum Pen Script", cursive;
+}
+.inicio__text span {
+  color: #ca6e6e;
+}
+.inicio__text .boton-inicio {
+  background-color: #9c6c6c;
+  width: 50%;
+  height: 8%;
+  position: relative;
+  left: 8rem;
+  bottom: 1rem;
+  border: transparent;
+  border-radius: 100px;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.carrusel {
+  width: 100%;
+  margin: 3rem;
+}
+
+.carrusel__border {
+  border-radius: 2%;
+}
+
+.productos__title {
+  background-color: #f7c479;
+  display: block;
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  font-family: "Cherry Bomb One", cursive;
+  position: relative;
+  bottom: 48rem;
+}
+
+.container {
+  position: relative;
+  bottom: 45rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.container img {
+  padding: 0rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.container img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  padding: 0.2rem;
+}
+
+.productos__container {
+  margin: 1.2rem;
+}
+
+.productos__links {
+  margin: 0.5rem;
+}
+
+.productos__image {
+  height: 15rem;
+  width: 16.5rem;
+  margin: 0.2rem;
+}
+
+.productos__name {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.ventajas__title {
+  background-color: #f7c479;
+  display: block;
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  font-family: "Cherry Bomb One", cursive;
+  position: relative;
+  bottom: 43rem;
+}
+
+.ventajas__section {
+  position: relative;
+  bottom: 39rem;
+  left: 0rem;
+  height: 20rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fdfdfd;
+  -webkit-box-shadow: 1rem 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 1rem 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.ventajas__text {
+  width: 33%;
+  margin: 2rem;
+}
+.ventajas__text p {
+  font-family: "Nanum Pen Script", cursive;
+  text-align: justify;
+  position: relative;
+  left: 2rem;
+}
+.ventajas__text h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Cherry Bomb One", cursive;
+}
+.ventajas__text img {
+  width: 10rem;
+  position: relative;
+  left: 8rem;
+}
+
+.newsletter__container {
+  margin: 0rem;
+  padding: 0rem;
+  background-color: #ffffff;
+  position: relative;
+  bottom: 35rem;
+  -webkit-box-shadow: 1rem 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 1rem 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.newsletter {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  grid-template-rows: -webkit-min-content;
+  grid-template-rows: min-content;
+  grid-template-areas: "titulo titulo img" "form form img" "form form img";
+}
+.newsletter .newsletter_title {
+  grid-area: titulo;
+  color: #0f0f0f;
+  font-family: "Cherry Bomb One", cursive;
+  position: relative;
+  left: 5rem;
+}
+.newsletter .form-newsletter {
+  grid-area: form;
+  width: 50rem;
+  height: 12rem;
+  border-radius: 40px;
+  background-color: #f5eead;
+  border: none rgba(0, 0, 0, 0.1);
+  outline: none;
+  font-size: 1rem;
+  font-weight: 20rem;
+  position: relative;
+  left: 1rem;
+}
+.newsletter .title-label-main {
+  font-size: 2rem;
+  font-family: "Cherry Bomb One", cursive;
+  position: relative;
+  left: 18rem;
+}
+.newsletter .input-newsletter {
+  width: 96%;
+  margin: 1rem;
+  height: 2.2rem;
+  border-radius: 2rem;
+}
+.newsletter .boton-newsletter {
+  width: 50%;
+  position: relative;
+  left: 12rem;
+  top: 0.5rem;
+  background-color: #9b2323;
+  border-radius: 40px;
+  border: transparent;
+  height: 2.5rem;
+}
+.newsletter .checkbox-newsletter {
+  position: relative;
+  left: 10rem;
+}
+.newsletter .title-label {
+  font-family: "Nanum Pen Script", cursive;
+  position: relative;
+  left: 10rem;
+}
+.newsletter .newsletter__image {
+  grid-area: img;
+  background-position: center;
+  width: 80%;
+  margin-left: 2rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #f7e3ca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 10rem;
+}
+footer .footer__title {
+  position: relative;
+  top: 1rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+footer .footer__container {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .footer__links {
+  position: relative;
+  left: -2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0rem;
+  padding: 0.2rem;
+}
+footer .copy {
+  text-align: center;
+  opacity: 50%;
+  font-size: 1rem;
+  position: relative;
+  left: -1rem;
+}
+footer .footer__logo {
+  width: 10rem;
+  position: absolute;
+  left: 72rem;
+}
+
+/*-------------QUIENES SOMOS-----------------------------*/
+.quieneSomos__text {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top: 1rem;
+  color: #0f0f0f;
+  font-size: 6rem;
+  width: 100%;
+  font-family: "Cherry Bomb One", cursive;
+  position: relative;
+  left: 2rem;
+  top: 5rem;
+}
+.quieneSomos__text span {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top: 1rem;
+  color: #0f0f0f;
+  font-size: 6rem;
+  width: 100%;
+  font-family: "Cherry Bomb One", cursive;
+  position: relative;
+  left: 4.5rem;
+  top: 1rem;
+}
+
+.height__quieneSomos {
+  display: block;
+  height: 80rem;
+}
+
+.quieneSomos {
+  position: relative;
+  bottom: 52rem;
+  background-color: azure;
+  width: 100%;
+}
+.quieneSomos .quieneSomos__container {
+  margin: 5rem;
+}
+.quieneSomos .quieneSomos__container p {
+  font-size: 1.2rem;
+  font-family: "Nanum Pen Script", cursive;
+}
+.quieneSomos .quieneSomos__container h2 {
+  font-size: 2rem;
+  color: aqua;
+  font-family: "Cherry Bomb One", cursive;
+  text-align: center;
+}
+.quieneSomos .quieneSomos__container2 {
+  margin: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.quieneSomos .quieneSomos__container2 .quieneSomos__image {
+  width: 20rem;
+  position: relative;
+  right: 2rem;
+  bottom: 1rem;
+}
+.quieneSomos .quieneSomos__container2 p {
+  font-size: 1.2rem;
+  font-family: "Nanum Pen Script", cursive;
+  text-align: center;
+  text-align: justify;
+}
+.quieneSomos .quieneSomos__container2 h3 {
+  font-size: 2rem;
+  color: aqua;
+  font-family: "Cherry Bomb One", cursive;
+  text-align: center;
+}
+.quieneSomos .quieneSomos__container2 h3 span {
+  color: red;
+}
+
+/*-------------TIENDA------------------------------------*/
+.productos {
+  padding-top: 0rem;
+  margin: 8rem;
+  position: relative;
+  top: 3rem;
+}
+.productos .boxContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.2rem;
+  background-color: #fdfdfd;
+}
+.productos .boxContainer .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.productos .boxContainer .box .dicount {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: var(#0f0f0f);
+  background-color: #9c6c6c;
+  z-index: 1;
+  border-radius: 0.5rem;
+}
+.productos .boxContainer .box:hover .imagen .iconsTienda {
+  bottom: 0;
+}
+.productos .boxContainer .box .imagen {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 60%;
+}
+.productos .boxContainer .box .imagen img {
+  height: 19rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.productos .boxContainer .box .imagen:hover .imagen img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.productos .boxContainer .box .imagen .iconsTienda {
+  position: absolute;
+  right: 0;
+  left: 0rem;
+  bottom: -7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(82, 82, 82, 0.697);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.productos .boxContainer .box .imagen a {
+  height: 5rem;
+  position: relative;
+  left: -1rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  width: 50%;
+  background: var(#4b4a4a);
+  color: #9b2323;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.productos .boxContainer .box .imagen .iconsTienda a:hover {
+  background: rgba(82, 82, 82, 0.697);
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  background-color: #fdfdfd;
+}
+.productos .boxContainer .box .imagen .fasfa-shopping-cart {
+  border-left: 0.1rem solid #D0EBD4;
+  border-right: 0.1rem solid #D0EBD4;
+  width: 100%;
+}
+.productos .boxContainer .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+.productos .boxContainer .box .content h3 {
+  font-size: 2.5rem;
+  color: #5f5f5f;
+  font-family: "Cherry Bomb One", cursive;
+}
+.productos .boxContainer .box .content p {
+  font-size: 0.8rem;
+  width: 80%;
+  height: 20%;
+  position: relative;
+  left: 8rem;
+  font-family: "Nanum Pen Script", cursive;
+}
+.productos .boxContainer .box .content .price {
+  font-size: 2.5rem;
+  color: var(#D0EBD4);
+  font-weight: bolder;
+  padding-top: 1rem;
+  font-family: "Cherry Bomb One", cursive;
+}
+.productos .boxContainer .box .content .price span {
+  font-size: 1.5rem;
+  color: var(#D0EBD4);
+  font-weight: lighter;
+  text-decoration: line-through;
+  font-family: "Cherry Bomb One", cursive;
+}
+
+/*-------------CONTACTO -----------------------------*/
+.contactUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+.contactUs .home {
+  position: relative;
+  bottom: 20rem;
+}
+.contactUs .volverInicio:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.contactContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item {
+  width: 100%;
+  height: 550px;
+  max-width: 820px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  z-index: 1000;
+}
+
+.contact {
+  background-color: #fafafa;
+}
+
+.firstText {
+  color: #f0b26a;
+  padding: 30px;
+  padding-top: 30px;
+  font-size: 35px;
+}
+
+.imgContact {
+  height: 20rem;
+  width: 20rem;
+  padding-left: 4rem;
+  position: relative;
+  bottom: 5rem;
+  right: 2rem;
+}
+
+.socialLinks {
+  padding-top: 5rem;
+  padding-left: 13rem;
+}
+
+.secondText {
+  font-size: 2rem;
+  color: #000000;
+  position: relative;
+  left: -5rem;
+  bottom: 8rem;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.imgsocial {
+  width: 2.3rem;
+  height: 2.3rem;
+  position: relative;
+  bottom: 6rem;
+  right: 8rem;
+  padding: 5px;
+}
+
+.imgsocial:hover {
+  background-color: #d8eaf1;
+  border-radius: 10px;
+}
+
+.submit-form {
+  background-color: #f0b26a;
+}
+
+.third-text {
+  font-size: 3rem;
+  position: relative;
+  top: -3rem;
+  left: 4.5rem;
+  padding-top: 10px;
+  color: #fafafa;
+  font-family: "Cherry Bomb One", cursive;
+}
+
+.form-contact {
+  padding: 0 50px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: -8rem;
+}
+
+.input-box {
+  height: 40px;
+  width: 70%;
+  margin: 30px 0;
+  position: relative;
+}
+.input-box label {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  padding-left: 20px;
+  padding-top: 40px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.input-box .btn__consulta {
+  position: relative;
+  top: 1px;
+  left: 60px;
+  height: 50px;
+  width: 180px;
+  border-radius: 20px;
+  border: transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.input-box .btn__consulta:hover {
+  background-color: #d8eaf1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.input-box .input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 10px;
+  color: #fafafa;
+  font-size: 16px;
+}
+.input-box textarea {
+  resize: none;
+  min-height: 100px;
+  overflow: auto;
+  position: relative;
+  bottom: 1rem;
+}
+
+.input-box .input:hover ~ label,
+.input-box .input:valid ~ label {
+  top: -1px;
+  left: 10px;
+  background-color: #f0b26a;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px;
+}
+
+/*-------------INICIO SESION-----------------------------*/
+.inicioDeSesion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(./assets/Imagenes/deliciosas-galletas-mesa.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.form_box {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  background: rgba(33, 32, 32, 0.697);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  position: relative;
+  bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: aliceblue;
+  position: relative;
+  right: 50px;
+}
+
+.input_box {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #eee0d2;
+}
+
+.input_box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: aliceblue;
+  font-size: 1rem;
+  pointer-events: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+}
+
+.input_box input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 35px 0 5px;
+  color: #eee0d2;
+}
+
+.input_box ion-icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2rem;
+  top: 20px;
+}
+
+.forget {
+  margin: -12px 0 12px;
+  font-size: 0.9rem;
+  color: rgb(242, 237, 237);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+.forget label input a {
+  margin-right: 3px;
+}
+
+.forget label a {
+  color: rgb(9, 9, 9);
+  text-decoration: none;
+}
+
+.forget label a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 80%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgb(252, 249, 249);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600px;
+}
+
+.register {
+  font-size: 0.9rem;
+  color: rgb(240, 235, 235);
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  margin: 25px 0 10px;
+}
+
+.register p a {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  font-weight: 600px;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}
+
+/*-------------REGISTRO-----------------------------*/
+.registro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(./assets/Imagenes/cookies-glaseadas.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.form_box {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  background: rgba(33, 32, 32, 0.697);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  position: relative;
+  top: 0.2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: aliceblue;
+  position: relative;
+  right: 50px;
+}
+
+.input_box {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #eee0d2;
+}
+
+.input_box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: aliceblue;
+  font-size: 1rem;
+  pointer-events: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+}
+
+.input_box input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 35px 0 5px;
+  color: #eee0d2;
+}
+
+.input_box ion-icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2rem;
+  top: 20px;
+}
+
+.forget {
+  margin: -12px 0 12px;
+  font-size: 0.9rem;
+  color: rgb(242, 237, 237);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+.forget label input a {
+  margin-right: 3px;
+}
+
+.forget label a {
+  color: rgb(9, 9, 9);
+  text-decoration: none;
+}
+
+.forget label a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 80%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgb(252, 249, 249);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600px;
+}
+
+.register {
+  font-size: 0.9rem;
+  color: rgb(240, 235, 235);
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  margin: 25px 0 10px;
+  position: relative;
+  left: 2rem;
+  bottom: 1.2rem;
+}
+
+.register p a {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  font-weight: 600px;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}

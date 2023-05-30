@@ -1,0 +1,48 @@
+.height__quieneSomos{
+    display: block;
+    height: 80rem;
+}
+.quieneSomos{
+    position: relative;
+    bottom: 52rem;
+    background-color: azure;
+    width: 100%;
+    .quieneSomos__container{
+        margin: 5rem;
+        p{
+            font-size: 1.2rem;
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        h2{
+            font-size: 2rem;
+            color: aqua;
+            font-family: 'Cherry Bomb One', cursive;
+            text-align: center;
+        }
+    }
+    .quieneSomos__container2{
+        margin: 5rem;
+        display: flex;
+            .quieneSomos__image{
+                width: 20rem;
+                position: relative;
+                right: 2rem;
+                bottom: 1rem;
+            }
+            p{
+            font-size: 1.2rem;
+            font-family: 'Nanum Pen Script', cursive;
+            text-align: center;
+            text-align: justify;
+            }
+            h3{
+            font-size: 2rem;
+            color: aqua;
+            font-family: 'Cherry Bomb One', cursive;
+            text-align: center;
+            span{
+                color: red;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.productos__title{
+    background-color: #f7c479;
+    display: block;
+    text-align: center;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    font-family: 'Cherry Bomb One', cursive;
+    position: relative;
+    bottom: 48rem;
+}
+    .container{
+        position: relative;
+        bottom: 45rem;
+        display: flex;
+        flex-direction: row;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        img{
+            padding: 0rem;
+            transition: .3s;    
+        }
+        img:hover{
+            transform: scale(1.1);
+            padding: 0.2rem;
+        }
+    }   
+        .productos__container{
+            margin: 1.2rem;
+        }
+        .productos__links{
+        margin: 0.5rem;
+        }
+        .productos__image{
+            height: 15rem;
+            width: 16.5rem;
+            margin: .2rem;
+        }
+        .productos__name{
+            text-align: center;
+            margin:0.5rem
+        }
+

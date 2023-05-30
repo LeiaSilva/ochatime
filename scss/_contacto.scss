@@ -1,0 +1,154 @@
+
+.contactUs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    .home{
+        position: relative;
+        bottom: 20rem;
+    }
+    .volverInicio:hover{
+        transform: scale(1.1);
+    }
+}
+    .contactContainer{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .item{
+            width: 100%;
+            height: 550px;
+            max-width: 820px;
+            background-color: #ffffff;
+            border-radius: 50px;
+            box-shadow: 0 0 20px 10px rgb(0,0,0,.4);
+            overflow: hidden;
+            grid-template-columns: repeat(2, 1fr);
+            display: grid;
+            z-index: 1000;
+        }
+            .contact{
+                background-color: #fafafa;
+            }
+                .firstText{
+                    color: #f0b26a;
+                    padding: 30px;
+                    padding-top: 30px;
+                    font-size: 35px;
+                }
+                .imgContact{
+                    height: 20rem;
+                    width: 20rem;
+                    padding-left: 4rem;
+                    position: relative;
+                    bottom: 5rem;
+                    right:2rem;
+                }
+                .socialLinks{
+                    padding-top: 5rem;
+                    padding-left: 13rem;
+                }
+                    .secondText{
+                        font-size: 2rem;
+                        color: #000000;
+                        position: relative;
+                        left: -5rem;
+                        bottom: 8rem;
+                        font-family: 'Nanum Pen Script', cursive;
+                    }
+                        .imgsocial{
+                            width: 2.3rem;
+                            height: 2.3rem;
+                            position: relative;
+                            bottom: 6rem;
+                            right: 8rem;
+                            padding: 5px;
+                        }
+                        .imgsocial:hover{
+                            background-color: #d8eaf1;
+                            border-radius: 10px;
+                        }
+            .submit-form{
+                background-color: #f0b26a;
+            }
+                .third-text{
+                    font-size: 3rem;
+                    position: relative;
+                    top: -3rem;
+                    left: 4.5rem;
+                    padding-top: 10px;
+                    color: #fafafa;
+                    font-family: 'Cherry Bomb One', cursive;
+                }
+                .form-contact{
+                    padding: 0 50px;
+                    height: 100%;
+                    width: 100%;
+                    overflow: hidden;
+                    position: relative;
+                    top: -8rem;
+                }
+                    .input-box{
+                        height: 40px;
+                        width: 70%;
+                        margin: 30px 0;
+                        position: relative;
+                        label{
+                            position: absolute;
+                            top:1px;
+                            left: 10px;
+                            padding-left: 20px;
+                            padding-top: 40px;
+                            transform: translateY(-50%);
+                            font-size: 15px;
+                            font-weight: 500;
+                            color: #ffffff;
+                            transition: .3s;
+                        }
+                        .btn__consulta{
+                            position: relative;
+                            top: 1px;
+                            left: 60px;
+                            height: 50px;
+                            width: 180px;
+                            border-radius: 20px;
+                            border: transparent;
+                            transition: .5s;
+                        }
+                        .btn__consulta:hover{
+                            background-color: #d8eaf1;
+                            transform: scale(1.1);
+                        }
+                        .input{
+                            width: 100%;
+                            height: 100%;
+                            background: transparent;
+                            border: 2px solid #ffffff;
+                            border-radius: 20px;
+                            outline: none;
+                            padding-left: 10px;
+                            color: #fafafa;
+                            font-size: 16px;
+                        }
+                        textarea{
+                            resize: none;
+                            min-height: 100px;
+                            overflow: auto;
+                            position: relative;
+                            bottom: 1rem;
+                        }
+                    }
+
+.input-box .input:hover ~ label,
+.input-box .input:valid ~ label{
+    top: -1px;
+    left: 10px;
+    background-color: #f0b26a;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px;}

@@ -1,0 +1,34 @@
+
+html{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{    
+    background: url(../assets/cookies-background.png);
+    background-color:#d8eaf1 ;
+    img{
+        width: 100%;
+    }
+    main{
+        height: 64rem;
+    }
+}
+@import "_navbar.scss" ;
+@import "_banner-inicial.scss" ;
+@import "_carrusel.scss";
+@import "./section-incio/_nuestros-productos.scss";
+@import "./section-incio/ventajas";
+@import "./section-incio/newsletter";
+@import "_footer.scss";
+/*-------------QUIENES SOMOS-----------------------------*/
+@import "./section_quienes-somos.scss/_banner-quienesSomos";
+@import "./section_quienes-somos.scss/historia";
+/*-------------TIENDA------------------------------------*/
+@import "./section-tienda/_cards.scss";
+/*-------------CONTACTO -----------------------------*/
+@import "./_contacto";
+/*-------------INICIO SESION-----------------------------*/
+@import "./_inicioSesión";
+/*-------------REGISTRO-----------------------------*/
+@import "./_registro";
