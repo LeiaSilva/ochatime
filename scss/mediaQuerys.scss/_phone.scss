@@ -1,0 +1,745 @@
+@media  screen and (max-width: 480px){
+    html{
+        font-size: 50%;
+        overflow-x: hidden;
+    }
+    header{
+        position: fixed;
+        top: 0rem; left: 0rem; right: 0rem;
+        background-color: #ffffff;
+        padding: 0.2rem 1%;
+        z-index: 1000;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+        border-radius: 2rem;
+    }
+    header .fa-bars{
+        display: block;
+        position: relative;
+        left: 1.5rem;
+        }
+    header .navbar {
+        position: fixed;
+        width: 100%;
+        height: 79rem;
+        background: #b8ab73;
+        top:18rem;
+        right: 18px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .navbar li{
+        display: block;
+        bottom: 4rem;
+        left: 4rem;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .navbar li a{
+        font-size: 30px;
+        padding: 10px;
+        border-bottom: 1px solid rgba(33, 32, 32, 0.697);
+    }
+    li a:hover, li a:active{
+        background: none;
+        color: #f1e3d3;
+    }
+    #toggler:checked~.navbar{
+        left: 0;
+    }
+    header img{
+        width: 40%;
+        position: relative;
+        left: 2rem;
+        bottom: 1px;
+    }
+    .icons a{
+        font-size: 3rem;
+        color: #0f0f0f;
+        margin-left: 0rem;
+        display: inline-block;
+        padding-top: 0.6rem;
+        bottom: 1rem;
+        right: 1rem;
+    }
+}
+/*-----BANNER INICIO---------------*/
+@media screen and (max-width: 480px){
+.inicio{
+    display: block;
+    position: relative;
+    bottom: 20rem;
+    background-color: #ffffff;
+    width: 100%;
+    height: 80rem;
+    left: 0rem;
+    box-shadow: 1rem 0 .5rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+    .inicio__text{
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        position: relative;
+        top: 45rem;
+        left: 2rem;
+        h1{
+            margin-top: 1rem;
+            color: #0f0f0f;
+            font-size: 3rem;
+            width: 100%;
+            font-family: 'Cherry Bomb One', cursive;
+            position: relative;
+            left: 1rem;
+        }
+        p{
+            margin: 2rem;
+            width: 80%;
+            justify-content: center;
+            font-size: 1.5rem;
+            position: relative;
+            left: 2rem;
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        span{
+            color: #ca6e6e;
+        }
+        .boton-inicio{
+            background-color: #9c6c6c;
+            width: 20%;
+            height: 5rem;
+            position: relative;
+            left: 19rem;
+            bottom: 1rem;
+            border: transparent;
+            border-radius: 100px;
+            font-family: 'Nanum Pen Script', cursive;
+        }
+    }
+/*-----------CARRUSEL---------------*/
+    .carrusel{
+        width: 100%;
+        margin: 0rem;
+        position: relative;
+        bottom: 34.5rem;
+    }
+        .carrusel__border{
+            border-radius: 2%;
+        }
+    }
+@media screen and (max-width: 480px){
+/*---------NUESTROS PRODUCTOS-------*/
+.productos__title{
+    font-size: 2.8rem;
+    background-color: #f7c479;
+    display: block;
+    text-align: center;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    font-family: 'Cherry Bomb One', cursive;
+    position: relative;
+    bottom: 18rem;
+}
+    .container{
+        position: relative;
+        bottom: 16rem;
+        display: block;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        img{
+            width: 48rem;
+            height: 48rem;
+            padding: 0rem;
+            transition: .3s;    
+        }
+        img:hover{
+            transform: scale(1.1);
+            padding: 0.2rem;
+        }
+    }   
+        .productos__container{
+            margin: 2rem;
+        }
+        .productos__links{
+        width: 100%;
+        }
+        .productos__image{
+            height: 15rem;
+            width: 16.5rem;
+            margin: .2rem;
+        }
+        .productos__name{
+            font-size: 2rem;
+            text-align: center;
+            margin:2rem;
+            font-family: 'Nanum Pen Script', cursive;
+        }
+}
+@media screen and (max-width: 480px){
+/*------------VENTAJAS------------*/
+.ventajas__title{
+    font-size: 2.8rem;
+    position: relative;
+    bottom: 15rem;
+    left: 1rem;
+}
+    .ventajas__section{
+        text-align: center;
+        position: relative;
+        bottom: 15rem;
+        height: 59rem;
+        width:100%;
+        margin: 1rem;
+        background: transparent;
+        display: block;
+        box-shadow: none;
+        background-color: #ffffff;
+
+    }
+    .ventajas__text{
+        width: 50%;
+        margin: 2rem;
+        p{
+            font-family: 'Nanum Pen Script', cursive;
+            font-size: 1.5rem;
+            text-align:center;
+            position: relative;
+            left: 15rem;
+
+        }
+        h3{
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Cherry Bomb One', cursive;
+            position: relative;
+            left: 14rem;
+        }
+        img{
+            width: 10rem;
+            position: relative;
+            left: 15rem;
+        }
+    }
+}
+@media screen and (max-width: 480px){
+/*-------NEWSLATTER-------------*/
+    .newsletter__container{
+        background-color: #ffffff;
+        width: 85%;
+        height: 18rem;
+        position: relative;
+        bottom: 14rem;
+        left: 5.5rem;
+        box-shadow: 1rem 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    }
+        .newsletter{
+            display: grid;
+            grid-template-columns: 30% 30% 40%;
+            grid-template-rows: min-content;
+            grid-template-areas: 
+            "titulo titulo img"
+            "form form img"
+            "form form img";
+            .newsletter_title{
+                grid-area: titulo;
+                font-size: 1.8rem;
+                color: #0f0f0f;
+                font-family: 'Cherry Bomb One', cursive;
+                position: relative;
+                left: 2rem;
+            }
+            .form-newsletter{
+                grid-area: form;
+                width: 30rem;
+                height: 5rem;
+                border-radius: 40px;
+                background-color: #f5eead;
+                border: none rgba(0, 0, 0, 0.1);
+                outline: none;
+                font-size: 1rem;
+                font-weight: 20rem;
+                position: relative;
+                left: 1rem;
+            }
+                .title-label-main{
+                    font-size: 1rem;
+                    font-family: 'Cherry Bomb One', cursive;
+                    position: relative;
+                    left: 15rem;
+                }
+                .input-newsletter{
+                    width: 90%;
+                    margin: 1rem;
+                    height: 2rem;
+                    position: relative;
+                    bottom: .6rem;
+                    border-radius: 2rem;
+                }
+                .boton-newsletter{
+                    width: 30%;
+                }
+                .checkbox-newsletter{
+                    position: relative;
+                    left: 4rem;
+                    bottom: .1rem;
+                }
+                .title-label{
+                    font-size: .9rem;
+                    font-family: 'Nanum Pen Script', cursive;
+                    position: relative;
+                    left: 4rem;
+                }
+            .newsletter__image{
+                grid-area: img;
+                background-position: center;
+                width: 75%;
+                margin-left: 0rem;
+                position: relative;
+                left: 5rem;
+                top: 2rem;
+            }
+        }
+}
+@media screen and (max-width: 480px){
+/*----------FOOTER--------------*/
+footer{
+    position: relative;
+    top: 50rem;
+    .footer__title{
+        position: relative;
+        top: 1rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+    .footer__container{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-position: center;
+        background-size: 40%;
+        background-repeat: no-repeat;
+        margin: 1rem;
+        display: flex;
+    }
+        .footer__links{
+            position: relative;
+            left: -2.5rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            margin: 0rem;
+            padding: 0.2rem;
+        }
+.copy{
+    text-align: center;
+    opacity: 50%;
+    font-size: 1rem;
+    position: relative;
+    left: -1rem;
+}
+.footer__logo{
+    width: 10rem;
+    position: absolute;
+    left: 72rem;
+}
+}
+/*-------------QUIENES SOMOS PAGE------------------*/
+@media screen and (max-width: 480px){
+    .height__quieneSomos{
+        height: 80vh;
+    }
+.quieneSomos__text{
+    width: 100%;
+    color: #0f0f0f;
+    font-size: 2rem;
+    width: 100%;
+    font-family: 'Cherry Bomb One', cursive;
+    position: relative;
+    left: 2rem;
+    top: 38rem;
+    span{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-top: 1rem;
+        color: #0f0f0f;
+        font-size: 6rem;
+        width: 100%;
+        font-family: 'Cherry Bomb One', cursive;
+        position: relative;
+        left: 4.5rem;
+        top: 1rem;
+    }
+}
+.quieneSomos{
+    position: relative;
+    bottom: 20rem;
+    background-color: azure;
+    width: 100%;
+    .quieneSomos__container{
+        margin: 5rem;
+        p{
+            font-size: 1.2rem;
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        h2{
+            font-size: 2rem;
+            color: aqua;
+            font-family: 'Cherry Bomb One', cursive;
+            text-align: center;
+        }
+    }
+    .quieneSomos__container2{
+        margin: 5rem;
+        display: flex;
+            .quieneSomos__image{
+                width: 20rem;
+                position: relative;
+                right: 2rem;
+                bottom: 1rem;
+            }
+            p{
+            font-size: 1.2rem;
+            font-family: 'Nanum Pen Script', cursive;
+            text-align: center;
+            text-align: justify;
+            }
+            h3{
+            font-size: 2rem;
+            color: aqua;
+            font-family: 'Cherry Bomb One', cursive;
+            text-align: center;
+            span{
+                color: red;
+            }
+        }
+    }
+}
+}
+}
+/*--------------CONTACTO PAGE--------------------*/
+@media screen and (max-width: 480px){
+    .contactUs{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        .home{
+            position: relative;
+            bottom: 20rem;
+        }
+        .volverInicio:hover{
+            transform: scale(1.1);
+        }
+    }
+        .contactContainer{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .item{
+                display: block;
+                width: 100%;
+                height: 110rem;
+                background-color: #ffffff;
+                border-radius: 50px;
+                box-shadow: 0 0 20px 10px rgb(0,0,0,.4);
+                overflow: hidden;
+                z-index: 1000;
+            }
+                .contact{ 
+                    position: relative;
+                    top: 70rem;
+                    background-color: #fafafa;
+                }
+                    .firstText{
+                        color: #f0b26a;
+                        padding: 30px;
+                        padding-top: 30px;
+                        font-size: 2rem;
+                        position: relative;
+                        bottom: 3rem;
+                    }
+                    .imgContact{
+                        height: 28rem;
+                        width: 28rem;
+                        padding-left: 0rem;
+                        position: relative;
+                        bottom: 10rem;
+                        right:-13rem;
+                    }
+                    .socialLinks{
+                        position: relative;
+                        left: 8rem;
+                        bottom: 7rem;
+                    }
+                        .secondText{
+                            font-size: 2rem;
+                            color: #000000;
+                            position: relative;
+                            left: -18rem;
+                            bottom: 5rem;
+                            font-family: 'Nanum Pen Script', cursive;
+                        }
+                            .imgsocial{
+                                width: 5rem;
+                                height: 4.5rem;
+                                position: relative;
+                                bottom: 6rem;
+                                right: 8rem;
+                                padding: 5px;
+                            }
+                            .imgsocial:hover{
+                                background-color: #d8eaf1;
+                                border-radius: 10px;
+                            }
+                .submit-form{
+                    height: 65rem;
+                    position: relative;
+                    bottom: 60rem;
+                    background-color: #f0b26a;
+                }
+                    .third-text{
+                        font-size: 5rem;
+                        position: relative;
+                        top: 1rem;
+                        left: 13rem;
+                        padding-top: 10px;
+                        color: #020202;
+                        font-family: 'Cherry Bomb One', cursive;
+                    }
+                    .form-contact{
+                        padding: 0 50px;
+                        height: 100%;
+                        width: 100%;
+                        overflow: hidden;
+                        position: relative;
+                        top: -8rem;
+                    }
+}
+/*------------------INICIO/REGISTRO-----------------*/
+@media screen and (max-width: 480px){
+    .form_box{
+        position: relative;
+        width: 450px;
+        height: 450px;
+        background: rgba(33, 32, 32, 0.697);
+        border-radius: 20px;
+        backdrop-filter: blur(3px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        position: relative;
+        bottom: 1rem;
+    }
+    h1{
+        font-size: 5rem;
+        font-family: 'Cherry Bomb One', cursive;
+        text-align: center;
+        color: aliceblue;
+        position: relative;
+        right: 2px;
+    }
+    .input_box{
+        position: relative;
+        margin: 30px 0;
+        width: 310px;
+        border-bottom: 2px solid #eee0d2;
+    
+    }
+    .input_box label{
+        font-family: 'Cherry Bomb One', cursive;
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        color: aliceblue;
+        font-size: 2rem;
+        pointer-events: none;
+        transition: .5s;
+    }
+    input:focus~label,
+    input:valid~label{
+        top: -5px;
+    }
+    .input_box input{
+        width: 100%;
+        height: 50px;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        padding: 0 35px 0 5px;
+        color: #eee0d2;
+    }
+    .input_box ion-icon{
+        position: absolute;
+        right: 8px;
+        font-size: 3rem;
+        top: 20px;
+    }
+    .forget{
+        margin: -12px 0 12px;
+        font-size: 2rem;
+        font-family: 'Nanum Pen Script', cursive;
+        color: rgb(242, 237, 237);
+        display: flex;
+        justify-content: stretch;
+    }
+    .forget label  input a{
+        margin-right: 3px;
+    }
+    .forget label a{
+        color: rgb(9, 9, 9);
+        text-decoration: none;
+    }
+    .forget label a:hover{
+        text-decoration: underline;
+    }
+    button{
+        width: 80%;
+        height: 40px;
+        border-radius: 40px;
+        background-color: rgb(252, 249, 249);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 2rem;
+        font-weight: 600px;
+        font-family: 'Cherry Bomb One', cursive;
+    }
+    .register{
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 2rem;
+        color: rgb(240, 235, 235);
+        text-align: center;
+        display: flex;
+        justify-content: stretch;
+        margin: 5px 0 10px;
+    }
+    .register p a{
+        text-decoration: none;
+        color: rgb(10, 10, 10);
+        font-weight: 600px;
+    }
+    .register p a:hover{
+        text-decoration: underline;
+    }
+}
+/*----------------TIENDA----------------*/
+@media screen and (max-width: 480px){
+    .tamañoImg{
+        width: 30rem;
+        height: 30rem;
+    }
+    .productos{
+    padding-top: 0rem;
+    margin: 5rem;
+    position: relative;
+    top: 16rem;
+    left: 1rem;
+    .boxContainer{
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        background-color: #fdfdfd;
+        .box{
+            display: block;
+            box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+            border-radius: .5rem;
+            border: .1rem solid rgba(0, 0, 0, 0.1);
+            position: relative;
+            .dicount{
+                position: absolute;
+                top: 1rem; left: 1rem;
+                padding: 0.5rem 1rem;
+                font-size: 1.5rem;
+                color: var(#0f0f0f);
+                background-color: #9c6c6c;
+                z-index: 1;
+                border-radius: .5rem;
+            }
+        &:hover .imagen .iconsTienda{
+            bottom: 0;
+        }
+            .imagen{
+                position: relative;
+                text-align: center;
+                overflow: hidden;
+                width: 100%;
+                img{
+                    height: 19rem;
+                    transition: .3s;
+                }
+        &:hover .imagen img{
+            transform: scale(1.1);
+                }
+                .iconsTienda{
+                    position: absolute;
+                    right: 0; left: 0rem;  bottom: 0rem;
+                    display: flex;
+                    background: rgba(82, 82, 82, 0.697);
+                    border-radius: 20px;
+                    backdrop-filter: blur(1px);
+                    transition: 0.6s;
+                }
+                a{
+                    height: 5rem;
+                    position: relative;
+                    left: -1rem;
+                    line-height: 5rem;
+                    font-size: 2rem;
+                    width: 50%;
+                    background: var(#4b4a4a);
+                    color:#9b2323;
+                    transition: .2s;
+                }
+                & .iconsTienda a:hover{
+                    background: rgba(82, 82, 82, 0.697);
+                    backdrop-filter: blur(1px);background-color: #fdfdfd;
+                    }
+                .fasfa-shopping-cart{
+                    border-left: .1rem solid #D0EBD4;
+                    border-right: .1rem solid #D0EBD4;
+                    width: 100%;
+                    }
+                }
+        .content{
+            padding: 2rem;
+            text-align: center;
+            h3{
+                font-size: 2.5rem;
+                color: #5f5f5f;
+                font-family: 'Cherry Bomb One', cursive;
+            }
+            p{
+                font-size: 1.5rem;
+                width: 80%;
+                height: 20%;
+                position: relative;
+                left: 3rem;
+                font-family: 'Nanum Pen Script', cursive;
+            }
+            .price{
+                font-size: 2.5rem;
+                color: var(#D0EBD4);
+                font-weight: bolder;
+                padding-top: 1rem;
+                font-family: 'Cherry Bomb One', cursive;
+                span{
+                    font-size: 1.5rem;
+                    color: var(#D0EBD4);
+                    font-weight: lighter;
+                    text-decoration: line-through;
+                    font-family: 'Cherry Bomb One', cursive;
+                    }
+                }
+            }
+        }
+    }
+}
+}
