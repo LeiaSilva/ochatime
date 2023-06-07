@@ -1094,6 +1094,12 @@ button {
   text-decoration: underline;
 }
 
+/*-------------404-----------------------------*/
+body img {
+  width: 50rem;
+  height: 50rem;
+}
+
 /*-------------MEDIA QUERYS-----------------------------*/
 @media screen and (max-width: 480px) {
   html {
