@@ -107,3 +107,12 @@
         }
     }
 }
+.pagination__nav{
+    position: relative;
+    top: 11rem;
+    left: 35rem;
+    ul{
+        display: flex;
+        font-size: 2rem;
+    }
+}

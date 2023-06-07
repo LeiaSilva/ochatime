@@ -598,6 +598,18 @@ footer .footer__logo {
   font-family: "Cherry Bomb One", cursive;
 }
 
+.pagination__nav {
+  position: relative;
+  top: 11rem;
+  left: 35rem;
+}
+.pagination__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+}
+
 /*-------------CONTACTO -----------------------------*/
 .contactUs {
   display: -webkit-box;
