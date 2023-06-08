@@ -12,6 +12,9 @@ body{
     }
 
 }
+/*-------------404-----------------------------*/
+@import "./_404.scss";
+/*---------------------------------------------*/
 @import "_navbar.scss" ;
 @import "_banner-inicial.scss" ;
 @import "_carrusel.scss";
@@ -30,7 +33,6 @@ body{
 @import "./_inicioSesión";
 /*-------------REGISTRO-----------------------------*/
 @import "./_registro";
-/*-------------404-----------------------------*/
-@import "./_404.scss";
+
 /*-------------MEDIA QUERYS-----------------------------*/
 @import "./mediaQuerys.scss/_phone.scss";
