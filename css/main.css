@@ -1111,7 +1111,7 @@ button {
 }
 
 /*-------------MEDIA QUERYS-----------------------------*/
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 380px) {
   html {
     font-size: 50%;
     overflow-x: hidden;
@@ -1145,7 +1145,7 @@ button {
     width: 100%;
     height: 79rem;
     background: #b8ab73;
-    top: 19.9rem;
+    top: 15.9rem;
     right: 18px;
     left: -100%;
     text-align: center;
@@ -1155,7 +1155,7 @@ button {
   .navbar li {
     display: block;
     bottom: 4rem;
-    left: 9rem;
+    left: 2.9rem;
     margin: 50px 0;
     line-height: 30px;
   }
@@ -1188,12 +1188,12 @@ button {
   }
 }
 /*-----BANNER INICIO---------------*/
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 380px) {
   .inicio {
     overflow-x: hidden;
     display: block;
     position: relative;
-    top: 20.2rem;
+    top: 15rem;
     background-color: #ffffff;
     width: 100%;
     height: 80rem;
@@ -1216,6 +1216,7 @@ button {
     width: 100%;
     font-family: "Cherry Bomb One", cursive;
     position: relative;
+    bottom: 5rem;
     left: 1rem;
   }
   .inicio__text p {
@@ -1226,7 +1227,8 @@ button {
             justify-content: center;
     font-size: 1.5rem;
     position: relative;
-    left: 3rem;
+    left: 1rem;
+    bottom: 4rem;
     font-family: "Nanum Pen Script", cursive;
   }
   .inicio__text span {
@@ -1237,8 +1239,8 @@ button {
     width: 30%;
     height: 5rem;
     position: relative;
-    left: 19rem;
-    bottom: -1.2rem;
+    left: 16rem;
+    bottom: 3rem;
     border: transparent;
     border-radius: 100px;
     font-family: "Nanum Pen Script", cursive;
@@ -1254,7 +1256,7 @@ button {
     border-radius: 2%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 380px) {
   /*---------NUESTROS PRODUCTOS-------*/
   .productos__title {
     font-size: 2.8rem;
@@ -1265,17 +1267,17 @@ button {
     padding: 0.2rem;
     font-family: "Cherry Bomb One", cursive;
     position: relative;
-    top: 22rem;
+    top: 19rem;
   }
   .container {
     position: relative;
-    top: 23rem;
+    top: 21rem;
     display: block;
     margin-left: 1rem;
     margin-right: 1rem;
   }
   .container img {
-    width: 48rem;
+    width: 40rem;
     height: 48rem;
     padding: 0rem;
     -webkit-transition: 0.3s;
@@ -1287,7 +1289,7 @@ button {
     padding: 0.2rem;
   }
   .productos__container {
-    margin: 4.5rem;
+    margin: 1rem;
   }
   .productos__links {
     width: 100%;
@@ -1304,7 +1306,7 @@ button {
     font-family: "Nanum Pen Script", cursive;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 380px) {
   /*------------VENTAJAS------------*/
   .ventajas__title {
     font-size: 2.8rem;
@@ -1315,8 +1317,8 @@ button {
   .ventajas__section {
     text-align: center;
     position: relative;
-    top: 30rem;
-    left: -1rem;
+    top: 28rem;
+    left: -5rem;
     height: 59rem;
     width: 100%;
     margin: 1rem;
@@ -1346,7 +1348,7 @@ button {
     left: 15rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 380px) {
   /*-------NEWSLATTER-------------*/
   .newsletter__container {
     width: 58rem;
@@ -1382,7 +1384,7 @@ button {
     font-size: 1.9rem;
     position: relative;
     top: -30rem;
-    left: 5rem;
+    left: -1rem;
   }
   .newsletter .title-label-main {
     font-size: 3rem;
@@ -1427,7 +1429,7 @@ button {
     top: 30rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 380px) {
   /*----------FOOTER--------------*/
   footer {
     position: relative;
@@ -1475,7 +1477,7 @@ button {
   }
   /*-------------QUIENES SOMOS PAGE------------------*/
 }
-@media screen and (max-width: 480px) and (max-width: 480px) {
+@media screen and (min-width: 380px) and (max-width: 480px) {
   .height__quieneSomos {
     height: 80vh;
   }
