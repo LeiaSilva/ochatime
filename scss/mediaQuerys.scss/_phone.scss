@@ -1,4 +1,4 @@
-@media  screen and (min-width: 380px){
+@media  screen and (max-width: 480px){
     html{
         font-size: 50%;
         overflow-x: hidden;
@@ -29,7 +29,7 @@
         width: 100%;
         height: 79rem;
         background: #b8ab73;
-        top:15.9rem;
+        top:18.3rem;
         right: 18px;
         left: -100%;
         text-align: center;
@@ -71,7 +71,7 @@
     }
 }
 /*-----BANNER INICIO---------------*/
-@media screen and (min-width: 380px){
+@media screen and (max-width: 480px){
 .inicio{
     overflow-x: hidden;
     display: block;
@@ -125,6 +125,8 @@
             font-family: 'Nanum Pen Script', cursive;
         }
     }
+}
+@media screen and (max-width: 480px){
 /*-----------CARRUSEL---------------*/
     .carrusel{
         width: 100%;
@@ -136,7 +138,7 @@
             border-radius: 2%;
         }
     }
-@media screen and (min-width: 380px){
+@media screen and (max-width: 480px){
 /*---------NUESTROS PRODUCTOS-------*/
 .productos__title{
     font-size: 2.8rem;
@@ -184,7 +186,7 @@
             font-family: 'Nanum Pen Script', cursive;
         }
 }
-@media screen and (min-width: 380px){
+@media screen and (max-width: 480px){
 /*------------VENTAJAS------------*/
 .ventajas__title{
     font-size: 2.8rem;
@@ -229,7 +231,7 @@
         }
     }
 }
-@media screen and (min-width: 380px){
+@media screen and (max-width: 480px){
 /*-------NEWSLATTER-------------*/
     .newsletter__container{
         width: 58rem;
@@ -312,7 +314,7 @@
             }
         }
 }
-@media screen and (min-width: 380px){
+@media screen and (max-width: 480px){
 /*----------FOOTER--------------*/
 footer{
     position: relative;
@@ -359,45 +361,20 @@ footer{
 }
 /*-------------QUIENES SOMOS PAGE------------------*/
 @media screen and (max-width: 480px){
-    .height__quieneSomos{
-        height: 80vh;
-    }
-.quieneSomos__text{
-    width: 100%;
-    color: #0f0f0f;
-    font-size: 2rem;
-    width: 100%;
-    font-family: 'Cherry Bomb One', cursive;
-    position: relative;
-    left: 2rem;
-    top: 38rem;
-    span{
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        margin-top: 1rem;
-        color: #0f0f0f;
-        font-size: 6rem;
-        width: 100%;
-        font-family: 'Cherry Bomb One', cursive;
-        position: relative;
-        left: 4.5rem;
-        top: 1rem;
-    }
-}
 .quieneSomos{
     position: relative;
     bottom: 20rem;
-    background-color: azure;
     width: 100%;
     .quieneSomos__container{
         margin: 5rem;
+        position: relative;
+        top: 5rem;
         p{
-            font-size: 1.2rem;
+            font-size: 1.7rem;
             font-family: 'Nanum Pen Script', cursive;
         }
         h2{
-            font-size: 2rem;
+            font-size: 3rem;
             color: aqua;
             font-family: 'Cherry Bomb One', cursive;
             text-align: center;
@@ -405,21 +382,22 @@ footer{
     }
     .quieneSomos__container2{
         margin: 5rem;
-        display: flex;
+        position: relative;
+        top: 5rem;
+        display: inline-block;
             .quieneSomos__image{
-                width: 20rem;
+                width: 25rem;
                 position: relative;
-                right: 2rem;
-                bottom: 1rem;
+                right: -8rem;
             }
             p{
-            font-size: 1.2rem;
+            font-size:1.7rem;
             font-family: 'Nanum Pen Script', cursive;
             text-align: center;
             text-align: justify;
             }
             h3{
-            font-size: 2rem;
+            font-size: 3rem;
             color: aqua;
             font-family: 'Cherry Bomb One', cursive;
             text-align: center;
@@ -428,19 +406,26 @@ footer{
             }
         }
     }
+    .quieneSomos__container3{
+        position: relative;
+        top: 30rem;
+    }
 }
 }
 }
 /*--------------CONTACTO PAGE--------------------*/
 @media screen and (max-width: 480px){
     .contactUs{
-        display:flex;
+        display:block;
+        position: relative;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
         .home{
-            position: relative;
-            bottom: 20rem;
+            position: absolute;
+            top: 0rem;
+            left: 23rem;
+            font-size: 5rem;
         }
         .volverInicio:hover{
             transform: scale(1.1);
@@ -455,14 +440,15 @@ footer{
             align-items: center;
         }
             .item{
+                box-shadow: none;
                 display: block;
                 width: 100%;
-                height: 110rem;
+                height: 90rem;
                 background-color: #ffffff;
                 border-radius: 50px;
-                box-shadow: 0 0 20px 10px rgb(0,0,0,.4);
                 overflow: hidden;
-                z-index: 1000;
+                position: relative;
+                top: 2.8rem;
             }
                 .contact{ 
                     position: relative;
@@ -482,19 +468,20 @@ footer{
                         width: 28rem;
                         padding-left: 0rem;
                         position: relative;
-                        bottom: 10rem;
-                        right:-13rem;
+                        bottom: 16rem;
+                        right:-5rem;
                     }
                     .socialLinks{
+                        font-size: 2rem;
                         position: relative;
-                        left: 8rem;
-                        bottom: 7rem;
+                        left: 20rem;
+                        bottom: 40rem;
                     }
                         .secondText{
                             font-size: 2rem;
                             color: #000000;
                             position: relative;
-                            left: -18rem;
+                            left: 1rem;
                             bottom: 5rem;
                             font-family: 'Nanum Pen Script', cursive;
                         }
@@ -504,16 +491,16 @@ footer{
                                 position: relative;
                                 bottom: 6rem;
                                 right: 8rem;
-                                padding: 5px;
+                                padding: 0px;
                             }
                             .imgsocial:hover{
                                 background-color: #d8eaf1;
                                 border-radius: 10px;
                             }
                 .submit-form{
-                    height: 65rem;
+                    height: 61rem;
                     position: relative;
-                    bottom: 60rem;
+                    bottom: 57.7rem;
                     background-color: #f0b26a;
                 }
                     .third-text{
@@ -536,16 +523,16 @@ footer{
 }
 /*------------------INICIO/REGISTRO-----------------*/
 @media screen and (max-width: 480px){
+.home__inicio{
+    position: absolute;
+    top: 0rem;
+    left: 23rem;
+    font-size: 5rem;
+}
     .form_box{
         position: relative;
         width: 450px;
-        height: 450px;
-        background: rgba(33, 32, 32, 0.697);
-        border-radius: 20px;
-        backdrop-filter: blur(3px);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: 600px;
     }
     form{
         position: relative;
@@ -618,14 +605,11 @@ footer{
     button{
         width: 80%;
         height: 40px;
-        border-radius: 40px;
-        background-color: rgb(252, 249, 249);
-        border: none;
-        outline: none;
-        cursor: pointer;
         font-size: 2rem;
         font-weight: 600px;
         font-family: 'Cherry Bomb One', cursive;
+        position: relative;
+        left: 5rem;
     }
     .register{
         font-family: 'Nanum Pen Script', cursive;
@@ -652,17 +636,15 @@ footer{
         height: 30rem;
     }
     .productos{
-    padding-top: 0rem;
-    margin: 5rem;
+    margin: 1rem;
     position: relative;
     top: 16rem;
-    left: 1rem;
+    left: 0.2rem;
     .boxContainer{
         display: block;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 1.2rem;
-        background-color: #fdfdfd;
+        position: relative;
+        top: 5rem;
+        
         .box{
             display: block;
             box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
@@ -673,11 +655,7 @@ footer{
                 position: absolute;
                 top: 1rem; left: 1rem;
                 padding: 0.5rem 1rem;
-                font-size: 1.5rem;
-                color: var(#0f0f0f);
-                background-color: #9c6c6c;
-                z-index: 1;
-                border-radius: .5rem;
+                font-size: 3rem;
             }
         &:hover .imagen .iconsTienda{
             bottom: 0;
@@ -688,13 +666,15 @@ footer{
                 overflow: hidden;
                 width: 100%;
                 img{
-                    height: 19rem;
+                    height: 40rem;
+                    width: 50rem;
                     transition: .3s;
                 }
         &:hover .imagen img{
             transform: scale(1.1);
                 }
                 .iconsTienda{
+                    height: 6.9rem;
                     position: absolute;
                     right: 0; left: 0rem;  bottom: 0rem;
                     display: flex;
@@ -707,8 +687,9 @@ footer{
                     height: 5rem;
                     position: relative;
                     left: -1rem;
+                    top: 1rem;
                     line-height: 5rem;
-                    font-size: 2rem;
+                    font-size: 5rem;
                     width: 50%;
                     background: var(#4b4a4a);
                     color:#9b2323;
@@ -728,12 +709,12 @@ footer{
             padding: 2rem;
             text-align: center;
             h3{
-                font-size: 2.5rem;
+                font-size: 5rem;
                 color: #5f5f5f;
                 font-family: 'Cherry Bomb One', cursive;
             }
             p{
-                font-size: 1.5rem;
+                font-size: 2.3rem;
                 width: 80%;
                 height: 20%;
                 position: relative;
@@ -741,7 +722,7 @@ footer{
                 font-family: 'Nanum Pen Script', cursive;
             }
             .price{
-                font-size: 2.5rem;
+                font-size: 6rem;
                 color: var(#D0EBD4);
                 font-weight: bolder;
                 padding-top: 1rem;
@@ -756,6 +737,14 @@ footer{
                 }
             }
         }
+    }
+}
+.pagination__nav{
+    position: relative;
+    top: 46rem;
+    left: 15rem;
+    .pagination{
+        font-size: 3rem;
     }
 }
 }
