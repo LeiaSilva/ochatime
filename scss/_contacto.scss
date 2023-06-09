@@ -40,6 +40,7 @@
                     padding: 30px;
                     padding-top: 30px;
                     font-size: 35px;
+                    font-family: 'Short Stack', cursive;
                 }
                 .imgContact{
                     height: 20rem;
@@ -59,7 +60,7 @@
                         position: relative;
                         left: -5rem;
                         bottom: 8rem;
-                        font-family: 'Nanum Pen Script', cursive;
+                        font-family: 'Short Stack', cursive;
                     }
                         .imgsocial{
                             width: 2.3rem;
@@ -99,6 +100,7 @@
                         margin: 30px 0;
                         position: relative;
                         label{
+                            font-family: 'Short Stack', cursive;
                             position: absolute;
                             top:1px;
                             left: 10px;
@@ -152,3 +154,9 @@
     font-weight: 500;
     font-size: 15px;
     padding: 5px;}
+.home__inicio{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-size: 2rem;
+}

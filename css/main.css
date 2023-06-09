@@ -133,10 +133,10 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   position: relative;
   left: 2rem;
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Short Stack", cursive;
 }
 .inicio__text span {
   color: #ca6e6e;
@@ -150,7 +150,7 @@ a:hover {
   bottom: 1rem;
   border: transparent;
   border-radius: 100px;
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Short Stack", cursive;
 }
 
 .carrusel {
@@ -212,6 +212,7 @@ a:hover {
 }
 
 .productos__name {
+  font-family: "Short Stack", cursive;
   text-align: center;
   margin: 0.5rem;
 }
@@ -247,7 +248,7 @@ a:hover {
   margin: 2rem;
 }
 .ventajas__text p {
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Short Stack", cursive;
   text-align: justify;
   position: relative;
   left: 2rem;
@@ -320,13 +321,14 @@ a:hover {
   border-radius: 40px;
   border: transparent;
   height: 2.5rem;
+  font-family: "Short Stack", cursive;
 }
 .newsletter .checkbox-newsletter {
   position: relative;
   left: 10rem;
 }
 .newsletter .title-label {
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Short Stack", cursive;
   position: relative;
   left: 10rem;
 }
@@ -413,7 +415,7 @@ footer .footer__logo {
   border-radius: 20px;
   -webkit-box-shadow: 1rem 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
           box-shadow: 1rem 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Short Stack", cursive;
 }
 .quieneSomos .quieneSomos__container h2 {
   font-size: 2rem;
@@ -440,7 +442,7 @@ footer .footer__logo {
   -webkit-box-shadow: 1rem 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
           box-shadow: 1rem 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
   font-size: 1.2rem;
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Short Stack", cursive;
   text-align: center;
   text-align: justify;
 }
@@ -493,6 +495,7 @@ footer .footer__logo {
   background-color: #9c6c6c;
   z-index: 1;
   border-radius: 0.5rem;
+  font-family: "Cherry Bomb One", cursive;
 }
 .productos .boxContainer .box:hover .imagen .iconsTienda {
   bottom: 0;
@@ -558,7 +561,7 @@ footer .footer__logo {
 .productos .boxContainer .box .content h3 {
   font-size: 2.5rem;
   color: #5f5f5f;
-  font-family: "Cherry Bomb One", cursive;
+  font-family: "Short Stack", cursive;
   position: relative;
   bottom: 2rem;
 }
@@ -568,7 +571,7 @@ footer .footer__logo {
   position: relative;
   bottom: 1.9rem;
   left: 1rem;
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Short Stack", cursive;
 }
 .productos .boxContainer .box .content .price {
   font-size: 2.5rem;
@@ -657,6 +660,7 @@ footer .footer__logo {
   padding: 30px;
   padding-top: 30px;
   font-size: 35px;
+  font-family: "Short Stack", cursive;
 }
 
 .imgContact {
@@ -679,7 +683,7 @@ footer .footer__logo {
   position: relative;
   left: -5rem;
   bottom: 8rem;
-  font-family: "Nanum Pen Script", cursive;
+  font-family: "Short Stack", cursive;
 }
 
 .imgsocial {
@@ -726,6 +730,7 @@ footer .footer__logo {
   position: relative;
 }
 .input-box label {
+  font-family: "Short Stack", cursive;
   position: absolute;
   top: 1px;
   left: 10px;
@@ -784,6 +789,13 @@ footer .footer__logo {
   padding: 5px;
 }
 
+.home__inicio {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 2rem;
+}
+
 /*-------------INICIO SESION-----------------------------*/
 .inicioDeSesion {
   display: -webkit-box;
@@ -827,11 +839,12 @@ form {
 }
 
 h1 {
-  font-size: 2rem;
+  font-family: "Cherry Bomb One", cursive;
+  font-size: 5rem;
   text-align: center;
   color: aliceblue;
   position: relative;
-  right: 50px;
+  left: 0.2rem;
 }
 
 .input_box {
@@ -842,6 +855,7 @@ h1 {
 }
 
 .input_box label {
+  font-family: "Short Stack", cursive;
   position: absolute;
   top: 50%;
   left: 5px;
@@ -868,6 +882,7 @@ input:valid ~ label {
   font-size: 1rem;
   padding: 0 35px 0 5px;
   color: #eee0d2;
+  font-family: "Short Stack", cursive;
 }
 
 .input_box ion-icon {
@@ -903,6 +918,7 @@ input:valid ~ label {
 }
 
 button {
+  font-family: "Short Stack", cursive;
   width: 80%;
   height: 40px;
   border-radius: 40px;
@@ -911,7 +927,9 @@ button {
   outline: none;
   cursor: pointer;
   font-size: 1rem;
-  font-weight: 600px;
+  font-weight: 200px;
+  position: relative;
+  left: 2rem;
 }
 
 .register {
@@ -925,12 +943,14 @@ button {
       -ms-flex-pack: stretch;
           justify-content: stretch;
   margin: 25px 0 10px;
+  font-family: "Short Stack", cursive;
 }
 
 .register p a {
   text-decoration: none;
   color: rgb(10, 10, 10);
   font-weight: 600px;
+  font-family: "Short Stack", cursive;
 }
 
 .register p a:hover {
@@ -1128,7 +1148,7 @@ button {
     width: 100%;
     height: 79rem;
     background: #b8ab73;
-    top: 18.3rem;
+    top: 17rem;
     right: 18px;
     left: -100%;
     text-align: center;
@@ -1138,9 +1158,10 @@ button {
   .navbar li {
     display: block;
     bottom: 4rem;
-    left: 2.9rem;
+    left: 4.5rem;
     margin: 50px 0;
     line-height: 30px;
+    font-family: "Cherry Bomb One", cursive;
   }
   .navbar li a {
     font-size: 30px;
@@ -1174,6 +1195,7 @@ button {
 @media screen and (max-width: 480px) {
   .inicio {
     overflow-x: hidden;
+    overflow-y: hidden;
     display: block;
     position: relative;
     top: 15rem;
@@ -1262,7 +1284,7 @@ button {
     margin-right: 1rem;
   }
   .container img {
-    width: 40rem;
+    width: 46rem;
     height: 48rem;
     padding: 0rem;
     -webkit-transition: 0.3s;
@@ -1356,8 +1378,9 @@ button {
     background-color: #f7c479;
     font-family: "Cherry Bomb One", cursive;
     position: relative;
-    bottom: 35rem;
-    left: 0.5rem;
+    bottom: 39rem;
+    left: 1rem;
+    width: 80%;
   }
   .newsletter .form-newsletter {
     grid-area: form;
@@ -1368,8 +1391,8 @@ button {
     outline: none;
     font-size: 1.9rem;
     position: relative;
-    top: -30rem;
-    left: -1rem;
+    top: -38rem;
+    left: 0rem;
   }
   .newsletter .title-label-main {
     font-size: 3rem;
@@ -1469,16 +1492,16 @@ button {
     width: 100%;
   }
   .quieneSomos .quieneSomos__container {
-    margin: 5rem;
+    margin: 1rem;
     position: relative;
     top: 5rem;
   }
   .quieneSomos .quieneSomos__container p {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: "Nanum Pen Script", cursive;
   }
   .quieneSomos .quieneSomos__container h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: aqua;
     font-family: "Cherry Bomb One", cursive;
     text-align: center;
@@ -1495,7 +1518,7 @@ button {
     right: -8rem;
   }
   .quieneSomos .quieneSomos__container2 p {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: "Nanum Pen Script", cursive;
     text-align: center;
     text-align: justify;
@@ -1511,7 +1534,7 @@ button {
   }
   .quieneSomos .quieneSomos__container3 {
     position: relative;
-    top: 30rem;
+    top: 20rem;
   }
 }
 /*--------------CONTACTO PAGE--------------------*/
@@ -1562,6 +1585,7 @@ button {
     overflow: hidden;
     position: relative;
     top: 2.8rem;
+    right: 1rem;
   }
   .contact {
     position: relative;
@@ -1701,7 +1725,7 @@ button {
   .forget {
     margin: -12px 0 12px;
     font-size: 2rem;
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
     color: rgb(242, 237, 237);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1725,12 +1749,12 @@ button {
     height: 40px;
     font-size: 2rem;
     font-weight: 600px;
-    font-family: "Cherry Bomb One", cursive;
+    font-family: "Short Stack", cursive;
     position: relative;
     left: 5rem;
   }
   .register {
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
     font-size: 2rem;
     color: rgb(240, 235, 235);
     text-align: center;
@@ -1777,6 +1801,7 @@ button {
     position: relative;
   }
   .productos .boxContainer .box .dicount {
+    font-family: "Cherry Bomb One", cursive;
     position: absolute;
     top: 1rem;
     left: 1rem;
@@ -1849,7 +1874,7 @@ button {
   .productos .boxContainer .box .content h3 {
     font-size: 5rem;
     color: #5f5f5f;
-    font-family: "Cherry Bomb One", cursive;
+    font-family: "Short Stack", cursive;
   }
   .productos .boxContainer .box .content p {
     font-size: 2.3rem;
@@ -1857,7 +1882,7 @@ button {
     height: 20%;
     position: relative;
     left: 3rem;
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
   }
   .productos .boxContainer .box .content .price {
     font-size: 6rem;
