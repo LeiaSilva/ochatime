@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*-------------GLOBALES-------------------*/
 html {
   margin: 0;
   padding: 0;
@@ -14,12 +15,39 @@ body img {
 }
 
 /*-------------404-----------------------------*/
-.image__404 {
-  width: 50rem;
-  height: 50rem;
+.pagina404 {
+  overflow: hidden;
+}
+.pagina404 h1 {
+  font-family: "Cherry Bomb One", cursive;
+  font-size: 5rem;
+  color: black;
+}
+.pagina404 p {
+  font-family: "Short Stack", cursive;
+  font-size: 1rem;
+  color: black;
+  position: relative;
+  left: 10rem;
+  bottom: 2rem;
+}
+.pagina404 button {
+  position: relative;
+  left: 30rem;
+  top: -20rem;
+  width: 20%;
+}
+.pagina404 .error {
+  margin: 0;
+  padding: 0;
+  height: 25rem;
+  width: 40rem;
+  position: relative;
+  left: 5rem;
+  border-radius: 5rem;
 }
 
-/*---------------------------------------------*/
+/*---------------NAVBAR------------------------*/
 header {
   position: fixed;
   top: 1.5rem;
@@ -98,6 +126,7 @@ a:hover {
   color: #D0EBD4;
 }
 
+/*----------BANNER INICIO----------------------*/
 .inicio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,7 +171,7 @@ a:hover {
   color: #ca6e6e;
 }
 .inicio__text .boton-inicio {
-  background-color: #9c6c6c;
+  background-color: #ca6e6e;
   width: 50%;
   height: 8%;
   position: relative;
@@ -153,6 +182,7 @@ a:hover {
   font-family: "Short Stack", cursive;
 }
 
+/*-----------------CARRUSEL--------------------*/
 .carrusel {
   width: 100%;
   margin: 3rem;
@@ -162,6 +192,7 @@ a:hover {
   border-radius: 2%;
 }
 
+/*-----------------NUESTROS PRODUCTOS----------*/
 .productos__title {
   background-color: #f7c479;
   display: block;
@@ -217,6 +248,7 @@ a:hover {
   margin: 0.5rem;
 }
 
+/*----------NUESTRAS VENTAJAS-------------------*/
 .ventajas__title {
   background-color: #f7c479;
   display: block;
@@ -264,6 +296,7 @@ a:hover {
   left: 8rem;
 }
 
+/*-----------NEWSLETTER------------------------*/
 .newsletter__container {
   margin: 0rem;
   padding: 0rem;
@@ -292,7 +325,7 @@ a:hover {
   width: 50rem;
   height: 12rem;
   border-radius: 40px;
-  background-color: #f5eead;
+  background-color: #ffffff;
   border: none rgba(0, 0, 0, 0.1);
   outline: none;
   font-size: 1rem;
@@ -317,7 +350,7 @@ a:hover {
   position: relative;
   left: 12rem;
   top: 0.5rem;
-  background-color: #9b2323;
+  background-color: #ca6e6e;
   border-radius: 40px;
   border: transparent;
   height: 2.5rem;
@@ -339,11 +372,17 @@ a:hover {
   margin-left: 2rem;
 }
 
+/*------------FOOOTER--------------------------*/
+hr {
+  position: relative;
+  top: 15rem;
+}
+
 footer {
   position: relative;
   top: 13rem;
   width: 100%;
-  background-color: #f7e3ca;
+  background-color: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -359,7 +398,15 @@ footer {
           flex-direction: column;
   height: 10rem;
 }
+footer hr {
+  position: relative;
+  top: 20rem;
+  color: black;
+  opacity: 0;
+  border: 2rem;
+}
 footer .footer__title {
+  color: black;
   position: relative;
   top: 1rem;
   padding: 0.5rem;
@@ -398,7 +445,8 @@ footer .footer__logo {
   left: 72rem;
 }
 
-/*-------------QUIENES SOMOS-----------------------------*/
+/*-------------QUIENES SOMOS-------------------*/
+/*-------------------------HISTORIA-----------*/
 .quieneSomos {
   position: relative;
   top: 10rem;
@@ -456,7 +504,7 @@ footer .footer__logo {
   color: red;
 }
 
-/*-------------TIENDA------------------------------------*/
+/*-------------TIENDA-------------------------*/
 .productos {
   padding-top: 0rem;
   margin: 0rem;
@@ -492,7 +540,7 @@ footer .footer__logo {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   color: var(#0f0f0f);
-  background-color: #9c6c6c;
+  background-color: #ca6e6e;
   z-index: 1;
   border-radius: 0.5rem;
   font-family: "Cherry Bomb One", cursive;
@@ -600,7 +648,7 @@ footer .footer__logo {
   font-size: 2rem;
 }
 
-/*-------------CONTACTO -----------------------------*/
+/*-------------CONTACTO ----------------------*/
 .contactUs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -613,11 +661,13 @@ footer .footer__logo {
           align-items: center;
   min-height: 100vh;
 }
-.contactUs .home {
-  position: relative;
-  bottom: 20rem;
+.contactUs .home__inicio {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 2rem;
 }
-.contactUs .volverInicio:hover {
+.contactUs .home__inicio:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -796,7 +846,7 @@ footer .footer__logo {
   font-size: 2rem;
 }
 
-/*-------------INICIO SESION-----------------------------*/
+/*-------------INICIO SESION------------------*/
 .inicioDeSesion {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -957,7 +1007,7 @@ button {
   text-decoration: underline;
 }
 
-/*-------------REGISTRO-----------------------------*/
+/*-------------REGISTRO------------------------*/
 .registro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1113,7 +1163,7 @@ button {
   text-decoration: underline;
 }
 
-/*-------------MEDIA QUERYS-----------------------------*/
+/*-------------MEDIA QUERYS--------------------*/
 @media screen and (max-width: 480px) {
   html {
     font-size: 50%;
@@ -1234,7 +1284,7 @@ button {
     position: relative;
     left: 1rem;
     bottom: 4rem;
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
   }
   .inicio__text span {
     color: #ca6e6e;
@@ -1248,7 +1298,7 @@ button {
     bottom: 3rem;
     border: transparent;
     border-radius: 100px;
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1310,7 +1360,7 @@ button {
     font-size: 2rem;
     text-align: center;
     margin: 2rem;
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1336,7 +1386,7 @@ button {
     margin: 2rem;
   }
   .ventajas__text p {
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
     font-size: 1.5rem;
     text-align: center;
     position: relative;
@@ -1422,7 +1472,7 @@ button {
   }
   .newsletter .title-label {
     font-size: 1.2rem;
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
     position: relative;
     top: -2.3rem;
     left: 8rem;
@@ -1498,7 +1548,7 @@ button {
   }
   .quieneSomos .quieneSomos__container p {
     font-size: 2rem;
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
   }
   .quieneSomos .quieneSomos__container h2 {
     font-size: 3.5rem;
@@ -1519,7 +1569,7 @@ button {
   }
   .quieneSomos .quieneSomos__container2 p {
     font-size: 2rem;
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
     text-align: center;
     text-align: justify;
   }
@@ -1620,7 +1670,7 @@ button {
     position: relative;
     left: 1rem;
     bottom: 5rem;
-    font-family: "Nanum Pen Script", cursive;
+    font-family: "Short Stack", cursive;
   }
   .imgsocial {
     width: 5rem;
@@ -1905,5 +1955,28 @@ button {
   }
   .pagination__nav .pagination {
     font-size: 3rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  /*--------------404---------------------*/
+  .pagina404 {
+    overflow-x: hidden;
+  }
+  .pagina404 p {
+    font-size: 2rem;
+    position: relative;
+    left: 2rem;
+  }
+  .pagina404 button {
+    position: relative;
+    top: 10rem;
+  }
+  .pagina404 .error {
+    margin: 0;
+    padding: 0;
+    height: 30rem;
+    width: 40rem;
+    position: relative;
+    left: -2rem;
   }
 }

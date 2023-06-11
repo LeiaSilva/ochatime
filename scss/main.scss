@@ -1,4 +1,4 @@
-
+/*-------------GLOBALES-------------------*/
 html{
     margin:0;
     padding: 0;
@@ -10,29 +10,35 @@ body{
     img{
         width: 100%;
     }
-
 }
 /*-------------404-----------------------------*/
 @import "./_404.scss";
-/*---------------------------------------------*/
+/*---------------NAVBAR------------------------*/
 @import "_navbar.scss" ;
+/*----------BANNER INICIO----------------------*/
 @import "_banner-inicial.scss" ;
+/*-----------------CARRUSEL--------------------*/
 @import "_carrusel.scss";
+/*-----------------NUESTROS PRODUCTOS----------*/
 @import "./section-incio/_nuestros-productos.scss";
+/*----------NUESTRAS VENTAJAS-------------------*/
 @import "./section-incio/ventajas";
+/*-----------NEWSLETTER------------------------*/
 @import "./section-incio/newsletter";
+/*------------FOOOTER--------------------------*/
 @import "_footer.scss";
-/*-------------QUIENES SOMOS-----------------------------*/
+/*-------------QUIENES SOMOS-------------------*/
 @import "./section_quienes-somos.scss/_banner-quienesSomos";
+/*-------------------------HISTORIA-----------*/
 @import "./section_quienes-somos.scss/historia";
-/*-------------TIENDA------------------------------------*/
+/*-------------TIENDA-------------------------*/
 @import "./section-tienda/_cards.scss";
-/*-------------CONTACTO -----------------------------*/
+/*-------------CONTACTO ----------------------*/
 @import "./_contacto";
-/*-------------INICIO SESION-----------------------------*/
+/*-------------INICIO SESION------------------*/
 @import "./_inicioSesión";
-/*-------------REGISTRO-----------------------------*/
+/*-------------REGISTRO------------------------*/
 @import "./_registro";
 
-/*-------------MEDIA QUERYS-----------------------------*/
+/*-------------MEDIA QUERYS--------------------*/
 @import "./mediaQuerys.scss/_phone.scss";

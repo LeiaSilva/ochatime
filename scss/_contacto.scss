@@ -4,11 +4,13 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    .home{
-        position: relative;
-        bottom: 20rem;
+    .home__inicio{
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        font-size: 2rem
     }
-    .volverInicio:hover{
+    .home__inicio:hover{
         transform: scale(1.1);
     }
 }

@@ -1,14 +1,26 @@
+hr{
+    position: relative;
+    top: 15rem;
+}
 footer{
     position: relative;
     top: 13rem;
     width: 100%;
-    background-color: #f7e3ca;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 10rem;
+    hr{
+        position: relative;
+        top: 20rem;
+        color: black;
+        opacity: 0;
+        border: 2rem;
+    }
     .footer__title{
+        color: black;
         position: relative;
         top: 1rem;
         padding: 0.5rem;
